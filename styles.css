@@ -1,0 +1,83 @@
+*
+{
+    font-family: 'SF Pro Display', sans-serif;
+                                                
+}
+.nav a{
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero-section
+{
+    background-color: #f8f9fa;
+    /* height: 680px; */
+}
+.mac-img{
+    background-image: url(/mac.png);
+    height: 680px;
+    width: 100%;
+    margin-top: 25px;
+    background-size: cover;
+}
+
+.save-img
+{
+    
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    height: 100%;
+}
+.iphone-img
+{
+    
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    height: 100%;
+   
+}
+.iTV
+{
+    height: 500px;
+}
+.carousel{
+    height: 100%;
+}
+.info{
+    font-size: 14px;
+    color: #86868b;
+    display: flex;
+    text-align: left;
+    padding-top: 2.5%;
+    margin-left: 200px;
+    padding-right: 5%;
+}
+.dot-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 5px;
+  }
+  .dot-active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+   
+    .info{
+        margin-left: 20px;
+    }
+ 
+  }
